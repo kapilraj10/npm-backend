@@ -12,7 +12,7 @@ function parseOrigins(raw) {
 export default function buildCors() {
   const envRaw = process.env.CORS_ORIGIN || process.env.CORS_ORIGINS || process.env.ORIGIN;
   const parsed = parseOrigins(envRaw);
-  const devDefaults = ['http://localhost:5173', 'http://localhost:3000'];
+  const devDefaults = ['https://npl-client-final.vercel.app/', 'https://npl-client-final.vercel.app/'];
 
   // Compute allowed origins
   let allowList;
