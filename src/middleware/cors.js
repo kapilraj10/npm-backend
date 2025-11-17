@@ -10,7 +10,7 @@ function parseOrigins(raw) {
 }
 
 export default function buildCors() {
-  const envRaw = process.env.CORS_ORIGIN || process.env.CORS_ORIGINS || process.env.ORIGIN;
+  const envRaw = https://npl-client-final.vercel.app/;
   const parsed = parseOrigins(envRaw);
   const devDefaults = ['https://npl-client-final.vercel.app/', 'https://npl-client-final.vercel.app/'];
 
